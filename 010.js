@@ -14,14 +14,25 @@
 //  *******
 // *********
 
-const num = prompt("숫자를 입력해주세요.");
+// const num = prompt("숫자를 입력해주세요.");
 let tree = '';
 
-for (let i = 0; i < num; i++) {
-    for (let j = num; j > i; j--) {
+// for (let i = 0; i < num; i++) {
+//     for (let j = num; j > i; j--) {
+//         tree += ' ';
+//     }
+//     for (let k = 0; k <= i * 2; k++) {
+//         tree += '*';
+//     }
+//     tree += '\n';
+// }
+
+for (let j = 5; j > 0; j--)
+{
+    for (let i = 5 - j; i > 0; i--) {
         tree += ' ';
     }
-    for (let k = 0; k <= i * 2; k++) {
+    for (let i = 0; i < j * 2 - 1; i++) {
         tree += '*';
     }
     tree += '\n';

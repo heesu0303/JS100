@@ -26,4 +26,6 @@ let time = {
 
 var result = year.concat('/', month, '/', day, ' ', hour, ':', minute, ':', second);
 
+// console.log(`${year}/${month}/${day} ${hour}:${minute}:${second}`);
+
 console.log(result);
