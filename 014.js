@@ -17,3 +17,5 @@ if (num % 3 == 0) {
 } else {
     console.log(num);
 }
+
+Number.isNaN(input) === true ? alert("숫자를 입력해주세용") : input % 3 === 0 ? console.log("짝") : console.log(input);
