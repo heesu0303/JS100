@@ -3,9 +3,10 @@
 // <pass>에 코드를 작성하여 two함수를 완성하세요.
 
 function one(n){
-    function two(){
+    function two(m){
         //pass
-        
+        const pow = Math.pow(m, n);
+        return pow;
     }
     return two;
 }

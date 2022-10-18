@@ -24,3 +24,5 @@ for (const [key, value] of Object.entries(planets)) {
         console.log(`${value}`);
     }
 }
+
+// console.log(planets[name]);

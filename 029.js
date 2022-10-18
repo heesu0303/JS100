@@ -9,3 +9,6 @@ if (alp === alp.toUpperCase()) {
 } else {
     console.log('NO');
 }
+
+// 정규표현식
+// alp.match(/[a-zA-Z]/gm) 

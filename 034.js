@@ -18,10 +18,20 @@ for (let i = 0; i < height.length; i++) {
         console.log('NO');
         break;
     } else {
-        console.log('YES');
+        continue;
     }
 }
+console.log('YES');
 
 // let arr = height.sort(function(a, b){
 //     return a - b;
 // });
+
+
+// 수현님 코드
+// let input = prompt("키를 입력하세요.");
+
+// let result = "";
+// result = input.split(" ").sort((a,b) => a-b).join(" ");
+
+// input === result ? console.log("YES") : console.log("NO");
