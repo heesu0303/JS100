@@ -12,3 +12,11 @@
 
 // 입력 : 3849
 // 출력 : 24
+
+let num = prompt('양의 정수를 입력하세요.').split('');
+let result = 0;
+
+for (const sum of num) {
+    result += parseInt(sum, 10);
+}
+console.log(result);
