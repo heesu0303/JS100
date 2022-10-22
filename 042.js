@@ -10,12 +10,13 @@
 // 2020년 a월 b일은 실제로 있는 날입니다. 
 // (13월 26일이나 2월 45일 같은 날짜는 주어지지 않습니다.)
 
-let month = prompt('월을 입력하세요.');
+let month = prompt('달을 입력하세요.');
 let day = prompt('일을 입력하세요.');
 
 function solution(month, day) {
     const week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-    
+    const today = new Date(`2022-${month}-${day}`);
+    return week[today.getDay()];
 }
 
-solution(month, day);
+console.log(solution(month, day));
